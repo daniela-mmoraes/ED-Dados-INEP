@@ -1,0 +1,39 @@
+# 📓 Diário de Bordo — Análise de Dados INEP (PICME)
+
+Painel central para acompanhamento do tratamento da base, decisões metodológicas e organização do relatório final.
+
+---
+
+## 📌 Navegação Rápida (Estrutura do Projeto)
+
+- **Capítulo 0 (Padronização e Merge):** [[Cap0_Padronizacao_e_Merge]]
+- **Dicionário e Variáveis:** [[Dicionario_Variaveis]]
+- **Rascunho do Relatório Oficial:** [[Rascunho_Relatorio_Oficial]]
+
+---
+
+## 🗓️ Atas de Reunião
+
+- [[Reunião 05]] (06/10/2026) — Definição do Cap0, GitHub e corte de anomalias.
+- [[Reunião 04]] (15/09/2026) — Escola fantasma, taxas `NaN` e grandeza em alunos.
+- [[Reunião 03]] (01/09/2026) — Recorte 2011–2025, variáveis e retirada do seriado.
+- [[Reunião 02]] (25/08/2026) — Busca e viabilidade dos Microdados do Censo Escolar.
+- [[Reunião 01]] (18/08/2026) — Objetivo do projeto, modelo epidemiológico e base de taxas.
+
+---
+
+## 🚨 Investigação de Anomalias na Base
+- [[Caso_Escolas_Fantasmas]] — 36 escolas eliminadas / escola que sumiu do mapa.
+- [[Caso_Taxas_NaN_e_Zeros]] — Padronização de nulos/zeros e casos `Abn + Apr + Rep = 0` com matrículas > 0.
+- [[Caso_100_Porcento_Abandono]] — Análise da quantidade total de alunos nessas escolas.
+- [[Caso_Quedas_e_Aumentos_Bruscos]] — Critério de variação brusca e persistência nos anos seguintes.
+
+---
+
+## 📊 Matriz de Rastreabilidade da Base
+| Etapa / Caso | Problema Encontrado | Tratamento Aplicado | Impacto (Escolas / Alunos) | Detalhes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Escolas Fantasmas** | Escolas sem registro / sumiram do mapa | Exclusão da base | 36 escolas / *N alunos* | [[Caso_Escolas_Fantasmas]] |
+| **Taxas Nulas** | `Apr`, `Rep` e `Abn` totalmente `NaN` | *Em análise* | *Preencher* | [[Caso_Taxas_NaN_e_Zeros]] |
+| **Soma Zero** | `Abn+Apr+Rep = 0` com `matriculados > 0` | Provável transferência | *Preencher* | [[Caso_Taxas_NaN_e_Zeros]] |
+| **Abandono Extremo** | Escolas com 100% de abandono | Avaliar porte de alunos | *Preencher* | [[Caso_100_Porcento_Abandono]] |

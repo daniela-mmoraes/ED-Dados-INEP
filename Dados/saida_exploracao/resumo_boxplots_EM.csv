@@ -1,0 +1,151 @@
+﻿recorte;grupo;taxa;n;Q1;mediana;Q3;% zero;% outliers
+regiao;Norte;Aprovação;3479;80,7;88,28;95,56;0,52;1,64
+regiao;Norte;Reprovação;3479;1,33;4,21;8,12;13,16;2,44
+regiao;Norte;Abandono;3479;0,81;6,0;11,66;12,5;2,39
+regiao;Nordeste;Aprovação;9866;82,08;90,13;96,13;0,05;2,04
+regiao;Nordeste;Reprovação;9866;2,05;4,72;8,33;10,64;3,59
+regiao;Nordeste;Abandono;9866;0,43;4,09;9,38;13,1;3,22
+regiao;Centro-Oeste;Aprovação;3056;82,81;92,3;97,06;0,13;1,57
+regiao;Centro-Oeste;Reprovação;3056;2,08;4,99;10,65;8,34;2,59
+regiao;Centro-Oeste;Abandono;3056;0,12;1,83;5,73;20,19;4,97
+regiao;Sudeste;Aprovação;15197;86,08;92,9;97,17;0,01;2,43
+regiao;Sudeste;Reprovação;15197;2,21;4,83;9,0;6,07;3,06
+regiao;Sudeste;Abandono;15197;0,0;1,35;4,93;25,85;3,38
+regiao;Sul;Aprovação;5253;80,92;88,14;95,25;0,02;0,88
+regiao;Sul;Reprovação;5253;3,49;7,17;11,84;4,02;1,66
+regiao;Sul;Abandono;5253;0,35;3,77;7,35;13,12;1,6
+rede;Federal;Aprovação;654;85,02;89,42;92,98;0,0;4,59
+rede;Federal;Reprovação;654;5,68;8,41;11,83;1,68;2,45
+rede;Federal;Abandono;654;0,57;1,3;2,82;4,28;10,7
+rede;Estadual;Aprovação;22604;79,95;86,37;91,94;0,09;1,73
+rede;Estadual;Reprovação;22604;3,81;7,04;11,25;4,15;2,39
+rede;Estadual;Abandono;22604;2,63;5,45;9,13;4,3;3,38
+rede;Municipal;Aprovação;638;77,78;86,78;94,89;0,0;2,35
+rede;Municipal;Reprovação;638;0,0;3,99;8,51;25,55;3,92
+rede;Municipal;Abandono;638;1,36;6,47;13,81;13,01;3,76
+rede;Privada;Aprovação;12955;94,5;96,98;98,64;0,07;6,84
+rede;Privada;Reprovação;12955;1,0;2,52;4,64;13,78;5,1
+rede;Privada;Abandono;12955;0,0;0,06;0,43;45,36;13,21
+localizacao;Urbana;Aprovação;32475;83,33;91,45;96,74;0,04;1,61
+localizacao;Urbana;Reprovação;32475;2,36;5,22;9,6;6,63;2,8
+localizacao;Urbana;Abandono;32475;0,12;2,24;6,7;19,95;3,54
+localizacao;Rural;Aprovação;4376;83,11;89,69;95,0;0,34;2,63
+localizacao;Rural;Reprovação;4376;1,14;3,67;7,17;17,0;3,79
+localizacao;Rural;Abandono;4376;1,72;5,11;10,0;11,04;3,7
+combinacoes;Pública urbana;Aprovação;19758;79,49;85,96;91,48;0,03;1,68
+combinacoes;Pública urbana;Reprovação;19758;4,46;7,67;11,87;2,07;2,33
+combinacoes;Pública urbana;Abandono;19758;2,57;5,35;8,92;3,28;3,49
+combinacoes;Pública rural;Aprovação;4138;82,91;89,41;94,76;0,36;2,59
+combinacoes;Pública rural;Reprovação;4138;1,17;3,82;7,43;16,99;3,6
+combinacoes;Pública rural;Abandono;4138;1,89;5,32;10,14;10,54;3,53
+combinacoes;Privada urbana;Aprovação;12717;94,59;97,02;98,65;0,07;6,76
+combinacoes;Privada urbana;Reprovação;12717;1,01;2,53;4,66;13,71;5,1
+combinacoes;Privada urbana;Abandono;12717;0,0;0,06;0,41;45,84;12,79
+combinacoes;Privada rural;Aprovação;238;89,81;94,28;97,05;0,0;10,08
+combinacoes;Privada rural;Reprovação;238;0,75;2,28;3,98;17,23;5,04
+combinacoes;Privada rural;Abandono;238;0,11;2,27;6,83;19,75;10,5
+uf;AC;Aprovação;384;80,65;87,6;92,62;4,17;5,73
+uf;AC;Reprovação;384;0,0;1,43;4,33;32,55;8,07
+uf;AC;Abandono;384;4,36;8,94;14,52;8,07;7,55
+uf;AL;Aprovação;530;83,15;91,29;95,91;0,0;1,13
+uf;AL;Reprovação;530;2,45;4,57;7,43;7,36;2,64
+uf;AL;Abandono;530;0,52;2,71;9,66;12,83;0,94
+uf;AM;Aprovação;656;82,72;88,62;93,57;0,0;3,05
+uf;AM;Reprovação;656;1,57;3,72;6,99;10,37;3,51
+uf;AM;Abandono;656;1,52;6,13;11,04;7,62;3,66
+uf;AP;Aprovação;184;74,78;82,11;92,3;0,54;0,54
+uf;AP;Reprovação;184;1,66;7,18;11,88;9,24;0,0
+uf;AP;Abandono;184;2,44;9,0;14,3;10,33;1,09
+uf;BA;Aprovação;2302;78,77;87,02;96,04;0,09;0,87
+uf;BA;Reprovação;2302;2,19;6,19;11,74;13,94;1,82
+uf;BA;Abandono;2302;0,51;5,13;9,53;14,64;1,95
+uf;CE;Aprovação;1234;88,46;94,4;98,25;0,16;1,94
+uf;CE;Reprovação;1234;0,92;2,54;4,81;11,99;3,24
+uf;CE;Abandono;1234;0,16;2,09;6,58;14,91;2,92
+uf;DF;Aprovação;346;82,24;93,49;97,41;0,29;1,45
+uf;DF;Reprovação;346;1,98;5,43;12,77;8,96;0,87
+uf;DF;Abandono;346;0,0;0,18;3,01;30,92;10,4
+uf;ES;Aprovação;533;85,27;91,44;95,8;0,0;1,13
+uf;ES;Reprovação;533;3,14;6,23;10,35;3,75;1,31
+uf;ES;Abandono;533;0,19;2,18;4,68;17,82;2,25
+uf;GO;Aprovação;1358;90,19;94,62;97,64;0,0;2,21
+uf;GO;Reprovação;1358;1,54;3,46;6,0;9,72;2,87
+uf;GO;Abandono;1358;0,17;1,33;3,79;19,66;3,68
+uf;MA;Aprovação;1581;81,63;87,44;94,87;0,0;2,78
+uf;MA;Reprovação;1581;1,93;5,01;8,03;15,37;2,21
+uf;MA;Abandono;1581;1,04;6,32;10,45;13,6;4,3
+uf;MG;Aprovação;3896;83,1;90,04;95,68;0,03;1,05
+uf;MG;Reprovação;3896;2,59;5,31;9,23;7,39;3,11
+uf;MG;Abandono;3896;0,28;4,05;7,9;16,76;1,21
+uf;MS;Aprovação;532;79,51;86,88;94,74;0,19;1,13
+uf;MS;Reprovação;532;3,87;8,72;13,42;4,7;0,94
+uf;MS;Abandono;532;0,14;3,52;6,96;20,11;1,88
+uf;MT;Aprovação;820;73,75;83,19;95,64;0,24;0,49
+uf;MT;Reprovação;820;2,78;9,23;15,66;8,17;1,1
+uf;MT;Abandono;820;0,29;4,6;10,02;16,59;2,2
+uf;PA;Aprovação;1286;78,34;88,35;97,54;0,0;0,31
+uf;PA;Reprovação;1286;1,18;4,13;8,39;13,14;1,79
+uf;PA;Abandono;1286;0,33;5,6;12,83;16,41;0,93
+uf;PB;Aprovação;862;81,75;88,61;95,43;0,12;1,16
+uf;PB;Reprovação;862;2,48;4,93;8,23;7,77;1,62
+uf;PB;Abandono;862;0,8;5,91;10,6;11,25;2,2
+uf;PE;Aprovação;1488;88,17;93,26;96,25;0,0;5,58
+uf;PE;Reprovação;1488;2,74;4,78;7,4;5,38;3,36
+uf;PE;Abandono;1488;0,29;1,42;4,03;11,76;8,6
+uf;PI;Aprovação;899;81,42;88,89;94,76;0,0;4,34
+uf;PI;Reprovação;899;1,82;3,9;6,52;9,23;3,67
+uf;PI;Abandono;899;1,18;6,73;11,85;11,01;5,01
+uf;PR;Aprovação;2345;83,97;90,01;96,15;0,0;0,21
+uf;PR;Reprovação;2345;2,94;5,89;10,01;4,09;1,02
+uf;PR;Abandono;2345;0,27;2,75;6,07;15,48;1,07
+uf;RJ;Aprovação;3096;82,99;91,41;95,9;0,0;2,68
+uf;RJ;Reprovação;3096;3,47;7,02;11,65;6,46;2,65
+uf;RJ;Abandono;3096;0,0;0,79;4,73;25,29;6,85
+uf;RN;Aprovação;588;73,72;83,21;94,98;0,0;0,34
+uf;RN;Reprovação;588;3,7;7,02;11,97;6,8;1,87
+uf;RN;Abandono;588;0,52;6,95;13,9;11,39;1,53
+uf;RO;Aprovação;322;81,5;87,83;93,72;0,31;2,48
+uf;RO;Reprovação;322;2,5;5,47;9,22;9,63;2,8
+uf;RO;Abandono;322;0,96;5,29;10,0;12,11;2,8
+uf;RR;Aprovação;196;81,74;86,32;90,9;0,0;2,04
+uf;RR;Reprovação;196;2,34;4,71;7,73;7,65;7,14
+uf;RR;Abandono;196;4,73;8,26;11,23;4,59;1,02
+uf;RS;Aprovação;1681;75,38;84,18;93,06;0,0;0,36
+uf;RS;Reprovação;1681;4,68;9,3;14,81;2,8;0,54
+uf;RS;Abandono;1681;0,92;5,66;9,53;8,8;1,49
+uf;SC;Aprovação;1227;80,7;88,19;95,9;0,08;0,49
+uf;SC;Reprovação;1227;3,41;7,66;11,99;5,54;1,55
+uf;SC;Abandono;1227;0,27;3,66;6,82;14,51;1,3
+uf;SE;Aprovação;382;80,67;89,71;96,31;0,0;0,26
+uf;SE;Reprovação;382;2,73;5,75;10,24;7,59;1,31
+uf;SE;Abandono;382;0,4;3,03;8,94;13,09;0,79
+uf;SP;Aprovação;7672;88,95;94,83;97,96;0,0;2,46
+uf;SP;Reprovação;7672;1,75;3,85;7,37;5,41;4,22
+uf;SP;Abandono;7672;0,0;0,68;3,56;31,24;2,85
+uf;TO;Aprovação;451;85,17;90,65;95,22;0,0;2,22
+uf;TO;Reprovação;451;2,51;5,34;8,57;7,32;3,77
+uf;TO;Abandono;451;0,53;3,39;6,3;16,85;3,33
+combinacoes_escola_ano;Pública urbana;Aprovação;261022;77,71;87,67;95,52;0,04;1,15
+combinacoes_escola_ano;Pública urbana;Reprovação;261022;1,63;6,29;13,01;15,22;2,71
+combinacoes_escola_ano;Pública urbana;Abandono;261022;0,36;3,68;9,15;21,91;3,82
+combinacoes_escola_ano;Pública rural;Aprovação;42295;81,14;90,8;97,62;0,26;2,75
+combinacoes_escola_ano;Pública rural;Reprovação;42295;0,0;2,6;8,23;36,02;5,72
+combinacoes_escola_ano;Pública rural;Abandono;42295;0,0;3,05;10,0;34,34;5,1
+combinacoes_escola_ano;Privada urbana;Aprovação;120507;94,49;97,87;100,0;0,04;5,56
+combinacoes_escola_ano;Privada urbana;Reprovação;120507;0,0;1,79;5,0;35,66;5,41
+combinacoes_escola_ano;Privada urbana;Abandono;120507;0,0;0,0;0,0;84,19;15,81
+combinacoes_escola_ano;Privada rural;Aprovação;2305;89,71;95,81;99,25;0,13;7,03
+combinacoes_escola_ano;Privada rural;Reprovação;2305;0,0;1,06;4,23;45,6;6,38
+combinacoes_escola_ano;Privada rural;Abandono;2305;0,0;0,43;5,08;49,24;12,1
+combinacoes_min30;Pública urbana;Aprovação;19402;79,48;85,89;91,37;0,01;1,59
+combinacoes_min30;Pública urbana;Reprovação;19402;4,53;7,71;11,88;1,54;2,33
+combinacoes_min30;Pública urbana;Abandono;19402;2,65;5,38;8,93;2,52;3,37
+combinacoes_min30;Pública rural;Aprovação;3258;83,02;89,13;94,27;0,0;1,87
+combinacoes_min30;Pública rural;Reprovação;3258;1,9;4,36;7,87;9,18;3,47
+combinacoes_min30;Pública rural;Abandono;3258;2,15;5,34;9,68;5,62;2,49
+combinacoes_min30;Privada urbana;Aprovação;10502;94,54;96,84;98,36;0,01;6,36
+combinacoes_min30;Privada urbana;Reprovação;10502;1,36;2,77;4,8;6,22;5,02
+combinacoes_min30;Privada urbana;Abandono;10502;0,0;0,09;0,41;40,19;11,41
+combinacoes_min30;Privada rural;Aprovação;183;89,9;94,21;96,72;0,0;8,2
+combinacoes_min30;Privada rural;Reprovação;183;1,16;2,44;4,05;6,56;4,37
+combinacoes_min30;Privada rural;Abandono;183;0,24;2,43;6,16;12,57;9,84

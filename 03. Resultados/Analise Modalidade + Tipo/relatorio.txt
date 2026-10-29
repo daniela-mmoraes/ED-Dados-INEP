@@ -1,0 +1,276 @@
+Análise de modalidade × dependência — etapa EM
+Arquivo: 01. Dados/bd5.zip
+Regra das taxas: B  |  tolerância da regra B: 5%  |  predominância: ≥ 80% dos anos  |  corte de porte: 30 matrículas/ano
+Regra A: Regular p < 48%, Misto 48–52%, Integral p > 52%  (a mesma de ENS_PRED)
+Regra B: Regular p ≤ 5%, Integral p ≥ 95%, Misto no meio
+p = matrículas integrais ÷ (regulares + integrais), por escola-ano
+
+==============================================================================
+0. LEITURA
+==============================================================================
+Linhas na base: 2.051.631
+Escolas-ano com matrícula na etapa: 429.002
+  sem rendimento informado (descartadas): 2.873
+Escolas-ano analisadas: 426.129
+Escolas distintas: 36.851
+Anos: 2011–2025
+
+Escolas-ano por dependência:
+                    escolas-ano
+dep                            
+Federal                    7653
+Estadual/Municipal       295664
+Privada                  122812
+
+==============================================================================
+1. PROPORÇÃO DE MATRÍCULAS INTEGRAIS (p), POR ESCOLA-ANO
+==============================================================================
+                escolas-ano      %
+p = 0%               322897  75.77
+0% < p ≤ 5%           32228   7.56
+5% < p < 48%          22920   5.38
+48% ≤ p ≤ 52%          1268   0.30
+52% < p < 95%         12513   2.94
+95% ≤ p < 100%         1128   0.26
+p = 100%              33175   7.79
+
+% por dependência (coluna soma 100):
+                Federal  Estadual/Municipal  Privada
+p = 0%             43.3                70.2     91.1
+0% < p ≤ 5%         6.5                10.0      1.8
+5% < p < 48%        5.2                 6.9      1.8
+48% ≤ p ≤ 52%       0.5                 0.4      0.1
+52% < p < 95%       6.5                 3.7      0.8
+95% ≤ p < 100%      1.0                 0.3      0.1
+p = 100%           37.0                 8.4      4.4
+
+Escolas-ano estritamente entre 0% e 100%: 70.057 (16.4%)
+Na faixa Misto da regra A (48–52%): 1.268 (0.3%)
+
+==============================================================================
+2. MODALIDADE × DEPENDÊNCIA, POR ESCOLA-ANO
+==============================================================================
+Regra A (escolas-ano):
+mod_A               Regular  Misto  Integral   Total
+dep                                                 
+Federal                4207     36      3410    7653
+Estadual/Municipal   257520   1168     36976  295664
+Privada              116318     64      6430  122812
+Total                378045   1268     46816  426129
+
+Regra B (escolas-ano):
+mod_B               Regular  Misto  Integral   Total
+dep                                                 
+Federal                3808    936      2909    7653
+Estadual/Municipal   237222  32553     25889  295664
+Privada              114095   3212      5505  122812
+Total                355125  36701     34303  426129
+
+Conferência: ENS_PRED_EM igual à regra A recalculada em 100.00% das escolas-ano
+
+% das escolas-ano classificadas como Integral, por ano (regra B):
+dep   Federal  Estadual/Municipal  Privada
+ANO                                       
+2011     21.4                 1.4      2.0
+2012     23.0                 2.0      2.1
+2013     25.8                 2.4      2.6
+2014     27.7                 3.3      2.8
+2015     34.9                 4.0      2.8
+2016     38.4                 4.5      3.2
+2017     40.6                 5.4      3.4
+2018     40.1                 6.5      3.5
+2019     40.6                 7.8      4.1
+2020     42.4                 9.7      4.4
+2021     41.7                12.4      4.9
+2022     44.3                14.5      6.1
+2023     44.2                15.8      7.3
+2024     47.8                18.1      8.9
+2025     34.8                20.9      8.1
+
+==============================================================================
+3. MUDANÇAS DE MODALIDADE POR ESCOLA
+==============================================================================
+Regra B
+Escolas: 36.851  (aparecem em 2 ou mais anos: 34.571)
+Nunca mudaram de modalidade: 22.078 (59.9%)
+  dessas, presentes em só 1 ano: 2.280
+Mudaram ao menos uma vez: 14.773 (40.1%; 42.7% das que aparecem em 2+ anos)
+  exatamente 1 troca: 5.215
+  2 ou mais trocas: 9.558
+Com a mesma modalidade em ≥ 80% dos anos: 29.778 (80.8%)
+Mudaram de dependência no período: 61
+
+Padrões:
+                             escolas     %
+padrao                                    
+Estável: Regular               20814  56.5
+2 ou mais trocas                9558  25.9
+1 troca: Regular → Misto        3272   8.9
+1 troca: Regular → Integral     1277   3.5
+Estável: Integral               1014   2.8
+1 troca: Misto → Regular         274   0.7
+Estável: Misto                   250   0.7
+1 troca: Misto → Integral        147   0.4
+1 troca: Integral → Regular      147   0.4
+1 troca: Integral → Misto         98   0.3
+
+Número de trocas por escola:
+    escolas
+0     22078
+1      5215
+2      5669
+3      2064
+4      1149
+5+      676
+
+Por dependência (classificação do último ano):
+                    escolas  mudaram  sempre_integral  ja_foram_integrais  % mudaram
+dep                                                                                 
+Federal                 654      362              101                 377       55.4
+Estadual/Municipal    23242    12094              613                5539       52.0
+Privada               12955     2317              300                1493       17.9
+
+Escolas que foram integrais em pelo menos um ano: 7.409
+  integrais em todos os anos:            1.014 (13.7%)
+    dessas, presentes em 2+ anos:        880
+  viraram integrais e ficaram (1 troca): 1.424 (19.2%)
+  deixaram de ser integrais (1 troca):   245 (3.3%)
+  oscilaram (2+ trocas):                 4.726 (63.8%)
+  → Indicação: a maioria das integrais mudou de modalidade; usar só escolas estáveis descarta boa parte do integral. Considerar escola × período (seção 6) como análise principal.
+
+Comparação com a regra A: mudaram 8.688 escolas (23.6%), estáveis 28.163.
+  Se a regra A gera muito mais trocas, parte delas é oscilação em torno dos 48–52%.
+
+==============================================================================
+4. ESCOLAS POR CÉLULA (dependência × modalidade)
+==============================================================================
+Regra B, só escolas que nunca mudaram:
+modalidade          Regular  Misto  Integral  Total
+dependência                                        
+Federal                 187      4       101    292
+Estadual/Municipal    10313    222       613  11148
+Privada               10314     24       300  10638
+Total                 20814    250      1014  22078
+
+Regra B, modalidade em ≥ 80% dos anos:
+modalidade          Regular  Misto  Integral  Total
+dependência                                        
+Federal                 257      8       194    459
+Estadual/Municipal    15944    372       898  17214
+Privada               11693     37       375  12105
+Total                 27894    417      1467  29778
+
+Regra A, só escolas que nunca mudaram:
+modalidade          Regular  Misto  Integral  Total
+dependência                                        
+Federal                 239      1       159    399
+Estadual/Municipal    15510      6       818  16334
+Privada               11094      1       335  11430
+Total                 26843      8      1312  28163
+
+Células com menos de 30 escolas (versão principal): Federal × Misto (4); Privada × Misto (24)
+
+==============================================================================
+5. TAXAS ACUMULADAS POR CÉLULA — escolas que nunca mudaram de modalidade
+==============================================================================
+mediana [Q1–Q3], em %. 'escolas' = n da célula.
+taxa                         escolas           Aprovação        Reprovação         Abandono   aviso
+dep                mod                                                                             
+Federal            Regular       187    90.4 [85.8–94.0]    8.0 [4.5–11.3]    1.3 [0.6–2.8]        
+                   Misto           4    93.7 [88.8–95.8]     4.8 [3.6–9.2]    1.3 [0.6–1.8]  n < 30
+                   Integral      101    89.6 [84.1–93.3]    8.0 [5.5–12.5]    0.8 [0.3–2.1]        
+Estadual/Municipal Regular     10313    85.8 [79.0–91.6]    7.1 [3.5–11.6]    5.7 [2.7–9.8]        
+                   Misto         222    93.0 [86.3–97.5]     3.9 [0.0–9.4]    2.4 [0.3–4.7]        
+                   Integral      613    97.3 [94.3–99.1]     1.7 [0.4–3.8]    0.2 [0.0–1.3]        
+Privada            Regular     10314    96.9 [94.4–98.6]     2.5 [0.9–4.7]    0.1 [0.0–0.5]        
+                   Misto          24   98.7 [95.2–100.0]     0.0 [0.0–3.9]    0.0 [0.0–0.0]  n < 30
+                   Integral      300    98.0 [94.6–99.9]     1.1 [0.0–2.6]    0.0 [0.0–1.5]        
+
+Só dependência:
+taxa                escolas          Aprovação        Reprovação         Abandono aviso
+dep                                                                                    
+Federal                 292   90.1 [85.1–93.9]    8.0 [4.8–11.5]    1.2 [0.4–2.5]      
+Estadual/Municipal    11148   86.5 [79.7–92.6]    6.6 [3.0–11.2]    5.3 [2.3–9.4]      
+Privada               10638   97.0 [94.4–98.7]     2.5 [0.9–4.7]    0.1 [0.0–0.5]      
+
+Só modalidade:
+taxa      escolas          Aprovação       Reprovação         Abandono aviso
+mod                                                                         
+Regular     20814   93.2 [84.7–97.4]    4.2 [1.6–8.5]    1.2 [0.0–6.1]      
+Misto         250   93.9 [86.6–97.9]    3.5 [0.0–9.0]    2.0 [0.0–4.4]      
+Integral     1014   97.2 [93.2–99.2]    1.8 [0.3–4.3]    0.2 [0.0–1.4]      
+
+Composição das células (matrícula média anual e anos na base, medianas):
+                             escolas  mat_media_mediana  anos_mediana  % rural
+dep                mod                                                        
+Federal            Regular       187              296.0          14.0      7.5
+                   Misto           4              248.0           8.0      0.0
+                   Integral      101              259.0          11.0     20.8
+Estadual/Municipal Regular     10313              190.0          15.0     25.5
+                   Misto         222              171.0           2.0     39.2
+                   Integral      613              214.0           8.0     15.7
+Privada            Regular     10314               65.0           9.0      0.6
+                   Misto          24               61.0           1.0      0.0
+                   Integral      300               50.0           5.0     28.3
+
+==============================================================================
+6. SENSIBILIDADE — medianas por célula em cinco versões
+==============================================================================
+Medianas (%):
+                                        1 estáveis  2 estáveis, sem 2020–21  3 estáveis, ≥30 mat/ano  4 predominante ≥80%  5 escola × período
+dep                mod      taxa                                                                                                             
+Federal            Regular  Aprovação        90.39                    90.82                    90.39                89.67               89.28
+                            Reprovação        7.96                     7.91                     7.96                 8.13                8.46
+                            Abandono          1.32                     1.32                     1.32                 1.48                1.49
+                   Misto    Aprovação        93.74                    93.78                    93.74                90.61               90.43
+                            Reprovação        4.83                     4.74                     4.83                 8.05                7.54
+                            Abandono          1.28                     1.42                     1.28                 1.29                1.17
+                   Integral Aprovação        89.57                    90.71                    89.49                89.41               89.76
+                            Reprovação        8.04                     8.09                     8.07                 8.65                8.57
+                            Abandono          0.79                     0.74                     0.79                 0.86                0.95
+Estadual/Municipal Regular  Aprovação        85.80                    84.90                    85.51                85.50               84.93
+                            Reprovação        7.07                     7.69                     7.54                 7.37                7.76
+                            Abandono          5.66                     5.93                     5.71                 5.88                6.04
+                   Misto    Aprovação        93.04                    92.58                    92.31                92.41               92.22
+                            Reprovação        3.87                     4.30                     4.73                 4.53                3.60
+                            Abandono          2.44                     2.58                     2.49                 2.41                3.12
+                   Integral Aprovação        97.35                    97.16                    97.51                96.52               96.61
+                            Reprovação        1.67                     1.83                     1.71                 2.39                1.60
+                            Abandono          0.19                     0.19                     0.20                 0.37                1.02
+Privada            Regular  Aprovação        96.94                    96.72                    96.71                96.95               96.93
+                            Reprovação        2.54                     2.77                     2.81                 2.58                2.59
+                            Abandono          0.08                     0.06                     0.12                 0.07                0.06
+                   Misto    Aprovação        98.74                    99.40                    98.45                97.84               98.35
+                            Reprovação        0.00                     0.00                     1.33                 1.41                1.42
+                            Abandono          0.00                     0.00                     0.00                 0.00                0.00
+                   Integral Aprovação        97.99                    98.08                    97.70                97.87               98.19
+                            Reprovação        1.05                     0.95                     1.39                 1.24                1.45
+                            Abandono          0.00                     0.00                     0.00                 0.00                0.00
+
+Número de unidades por célula (escolas; na versão 5, escola × modalidade):
+                             1 estáveis  2 estáveis, sem 2020–21  3 estáveis, ≥30 mat/ano  4 predominante ≥80%  5 escola × período
+Federal            Regular          187                      187                      185                  257                 461
+                   Misto              4                        4                        4                    8                 305
+                   Integral         101                      101                       99                  194                 377
+Estadual/Municipal Regular        10313                    10250                     9295                15944               22138
+                   Misto            222                      219                      207                  372               11232
+                   Integral         613                      605                      556                  898                5540
+Privada            Regular        10314                    10239                     8290                11693               12566
+                   Misto             24                       24                       16                   37                1681
+                   Integral         300                      298                      213                  375                1492
+
+Versão 5: ano mediano dos períodos em cada célula. Se o integral estiver concentrado
+em anos mais recentes, parte da diferença pode vir da queda geral do abandono no tempo.
+mod                 Regular   Misto  Integral
+dep                                          
+Federal              2018.0  2021.0    2020.0
+Estadual/Municipal   2017.5  2022.0    2023.0
+Privada              2018.0  2022.5    2023.0
+Escolas que aparecem em mais de uma modalidade na versão 5: 14.773
+
+==============================================================================
+ARQUIVOS
+==============================================================================
+Figuras salvas: fig1_faixas_proporcao_integral.png, fig2_boxplots_dependencia_modalidade.png, fig3_integral_por_ano.png
+escolas_acumulado.csv: uma linha por escola, com taxas acumuladas e classificação.
+Tabelas e relatório em: C:\Users\Yasmin\IMPA TECH\2º. ano\2.2\PICME\Fase1\ED-Dados-INEP\03. Resultados\Analise Modalidade + Tipo

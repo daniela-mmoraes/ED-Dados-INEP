@@ -1,0 +1,28 @@
+﻿dep;mod;taxa;n;Q1;mediana;Q3;% zero;% outliers;aviso
+Federal;Regular;Aprovação;187;85,76;90,39;93,99;0,0;2,67;
+Federal;Regular;Reprovação;187;4,54;7,96;11,34;3,74;2,14;
+Federal;Regular;Abandono;187;0,61;1,32;2,75;9,09;10,16;
+Federal;Misto;Aprovação;4;88,84;93,74;95,78;0,0;25,0;n < 30
+Federal;Misto;Reprovação;4;3,61;4,83;9,18;0,0;25,0;n < 30
+Federal;Misto;Abandono;4;0,61;1,28;1,82;25,0;0,0;n < 30
+Federal;Integral;Aprovação;101;84,07;89,57;93,33;0,0;2,97;
+Federal;Integral;Reprovação;101;5,49;8,04;12,48;3,96;1,98;
+Federal;Integral;Abandono;101;0,28;0,79;2,11;9,9;11,88;
+Estadual/Municipal;Regular;Aprovação;10313;79,01;85,8;91,58;0,17;2,76;
+Estadual/Municipal;Regular;Reprovação;10313;3,46;7,07;11,63;8,33;2,44;
+Estadual/Municipal;Regular;Abandono;10313;2,74;5,66;9,83;6,63;4,94;
+Estadual/Municipal;Misto;Aprovação;222;86,32;93,04;97,5;0,0;0,9;
+Estadual/Municipal;Misto;Reprovação;222;0,0;3,87;9,38;29,28;0,45;
+Estadual/Municipal;Misto;Abandono;222;0,28;2,44;4,67;22,97;4,05;
+Estadual/Municipal;Integral;Aprovação;613;94,27;97,35;99,1;0,16;5,38;
+Estadual/Municipal;Integral;Reprovação;613;0,42;1,67;3,8;16,97;4,08;
+Estadual/Municipal;Integral;Abandono;613;0,0;0,19;1,27;29,04;13,87;
+Privada;Regular;Aprovação;10314;94,39;96,94;98,64;0,09;7,17;
+Privada;Regular;Reprovação;10314;0,95;2,54;4,74;15,08;5,3;
+Privada;Regular;Abandono;10314;0,0;0,08;0,49;44,69;12,59;
+Privada;Misto;Aprovação;24;95,15;98,74;100,0;0,0;20,83;n < 30
+Privada;Misto;Reprovação;24;0,0;0,0;3,89;58,33;12,5;n < 30
+Privada;Misto;Abandono;24;0,0;0,0;0,0;79,17;20,83;n < 30
+Privada;Integral;Aprovação;300;94,58;97,99;99,92;0,0;8,0;
+Privada;Integral;Reprovação;300;0,0;1,05;2,57;30,67;7,67;
+Privada;Integral;Abandono;300;0,0;0,0;1,51;63,33;15,33;

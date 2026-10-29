@@ -11,6 +11,11 @@ A verificação foi realizada para as seguintes etapas de ensino:
 
 ## Decisão de tratamento
 
-Como em todos os casos havia apenas uma matrícula e foram identificadas somente 26 ocorrências no total, é plausível que esses registros decorressem de transferências de alunos ou de erros de digitação no preenchimento dos dados.
+Após a identificação dos 26 casos em que havia uma matrícula positiva, mas a soma de aprovados, reprovados e abandonos era igual a zero, foi realizada uma investigação complementar para compreender melhor o contexto dessas ocorrências.
 
-Diante dessas possibilidades e da pequena quantidade de ocorrências, foi decidido zerar as matrículas correspondentes a esses registros. Assim, i tratamento foi aplicado às colunas de matrícula regular e de matrícula integral da etapa de ensino correspondente.
+Para cada caso, foram identificados o código da escola, o ano da inconsistência e a etapa de ensino correspondente. Em seguida, foram consultados os registros da mesma escola nos anos posteriores, verificando quais anos apresentavam dados, por quanto tempo a escola continuou aparecendo na base e quais eram as quantidades de matrículas por etapa no último ano disponível. Essas informações foram organizadas em uma tabela, que sintetiza o processo de investigação e permite comparar as trajetórias dos registros analisados.
+
+A análise mostrou que, em 24 dos 26 casos, havia registros da escola em anos posteriores ao da inconsistência. Além disso, em todos os casos, a quantidade de matrículas na etapa em que ocorreu a inconsistência era igual a um. Esses resultados ajudaram a contextualizar as ocorrências e indicaram que, na maioria dos casos, as escolas continuaram apresentando registros na base após o ano investigado.
+
+Considerando que foram identificadas apenas 26 ocorrências, que cada uma envolvia uma única matrícula na etapa correspondente e que havia registros posteriores para a maioria das escolas, o grupo decidiu zerar as matrículas regular e integral da etapa correspondente nesses registros. Foram consideradas como possíveis explicações transferências de alunos ou erros de digitação, embora a investigação não permita confirmar individualmente nenhuma dessas hipóteses.
+

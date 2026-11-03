@@ -232,7 +232,7 @@ Thumbs.db
 # --- Bases de Dados Pesadas (Segurança extra) ---
 #   O GitHub bloqueia arquivos maiores que 100MB. 
 #   Descomente as linhas abaixo se quiserem impedir que bases brutas subam por engano:
-# *.csv
+*.csv
 # *.parquet
 # *.xlsx
 # *.zipDados/bd5.csv

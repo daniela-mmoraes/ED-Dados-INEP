@@ -236,6 +236,8 @@ Thumbs.db
 *.jpg
 *.jpeg
 *.png
+*.svg
+*.json
 # *.parquet
 # *.xlsx
 # *.zipDados/bd5.csv
